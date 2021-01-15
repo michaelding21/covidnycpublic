@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<link rel="icon" href="images/virus.jpg" width="50" height="40" type="image/jpg">
+
+<head>
+
+  <meta charset="utf-8">
+  <div class="row">
+    <header>COVID-19 in NYC: Age Groups</header>
+
+  </div>
+  <meta name="author" content="Michael Ding and Neilesh Shrotri">
+  <meta name="description" content="COVID-19 in NYC">
+  <meta content="text/html" http-equiv="Content-type" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" name="viewport" />
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <!-- Load c3.css -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.20/c3.css" integrity="sha512-GQSxWe9Cj4o4EduO7zO9HjULmD4olIjiQqZ7VJuwBxZlkWaUFGCxRkn39jYnD2xZBtEilm0m4WBG7YEmQuMs5Q==" crossorigin="anonymous" />
+  <!--Load d3.js and c3.js-->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.8.2/d3.min.js" integrity="sha512-xGRWSXPpNOML9FsRiVNCqkyZ68j5x2AnUx9htR8yd5evhM5LwU2+t6vwj7K2G75fp0CnyFNFPkP1wIyh5t+qVg==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.20/c3.min.js" integrity="sha512-+IpCthlNahOuERYUSnKFjzjdKXIbJ/7Dd6xvUp+7bEw0Jp2dg6tluyxLs+zq9BMzZgrLv8886T4cBSqnKiVgUw==" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <img src="images/virus.jpg" width="50" height="50" class="d-inline-block align-top navbar-brand" alt="">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="macro.html">Landing page <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Micro-summary pages
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          
+          
+          
+          <a class="dropdown-item" href="Ages_0-4.html">Ages 0-4 </a>
+          
+          
+          
+          <a class="dropdown-item" href="Ages_5-12.html">Ages 5-12 </a>
+          
+          
+          
+          <a class="dropdown-item" href="Ages_13-17.html">Ages 13-17 </a>
+          
+          
+          
+          <a class="dropdown-item" href="Ages_18-24.html">Ages 18-24 </a>
+          
+          
+          
+          <a class="dropdown-item" href="Ages_25-34.html">Ages 25-34 </a>
+          
+          
+          
+          <a class="dropdown-item" href="Ages_35-44.html">Ages 35-44 </a>
+          
+          
+          
+          <a class="dropdown-item" href="Ages_45-54.html">Ages 45-54 </a>
+          
+          
+          
+          <a class="dropdown-item" href="Ages_55-64.html">Ages 55-64 </a>
+          
+          
+          
+          <a class="dropdown-item" href="Ages_65-74.html">Ages 65-74 </a>
+          
+          
+          
+          <a class="dropdown-item" href="Ages_75_and_up.html">Ages 75 and up </a>
+          
+          
+        </div>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1>Ages 18-24</h1>
+    </div>
+  </div>
+  <div id="chart"></div>
+
+  <div class="row">
+    <div class="col">
+      <br>
+      <p> Summary: The young adults, aged 18-24, sees a sharp increase in both the case and hospitalization rates. Younger adults may spend much time socializing or working with other people, thereby putting themselves at more risk for spread. In addition, their immune system is no longer as strong against the virus as it used to be, leading to higher hospitalization rates. Deaths are still quite rare, fortunately.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <br>
+      <p> insert text here neil"</p>
+      <br> <br>
+    </div>
+  </div>
+  <div class ="row">
+    <br>
+    <h6> Check out data on the previous and next age groups:</h6>
+    <br> <br>
+  </div>
+  <div class ="row">
+      
+      
+      
+      
+        <a class="btn btn-primary" href="Ages_13-17.html" role="button">Previous Age Group</a>
+            <div class="col">
+        <a class="btn btn-primary" href="Ages_25-34.html" role="button">Next Age Group</a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+  </div>
+  <br>
+  <script defer>
+    var arr = ["this group"];
+    arr.push(4485);
+    arr.push(218);
+    arr.push(5);
+    var chart2 = c3.generate({
+      bindto: '#chart',
+      data: {
+        columns: [
+          arr,
+          ['overall', 4756, 835, 245 ]
+        ],
+        type: 'bar'
+      },
+      title:{
+        text: 'Rates of Cases, Hospitalizations, and Deaths for this Age Group'
+      },
+      bar: {
+        width: {
+          ratio: 0.5 // this makes bar width 50% of length between ticks
+        }
+      },
+      axis: {
+        x: {
+
+                type:'category',
+                categories: ['cases', 'hospitalizations','deaths']
+
+        },
+      y: {
+        show: true,
+        label: {
+          text: 'number per 100,000 people',
+          position: 'outer-middle'
+        }
+      }
+    }
+    });
+  </script>
+</div>
+<br>
+
+<footer>
+  <p>Sources</p>
+  <ul>
+  <li>Source for data: [insert it here neil]</li>
+  <li><a href="https://stackoverflow.com/questions/27072866/how-to-remove-all-files-from-directory-without-removing-directory-in-node-js#:~:text=To%20remove%20all%20files%20from%20a%20directory%2C%20first%20you%20need,unlink%20to%20remove%20each%20file">Stackoverflow Source</a> for precompile code from user "Rodrigo5244"</li>
+
+  <li><a href="https://c3js.org/samples/chart_bar.html" >Source </a>for graph templates: C3.js, a D3-based reusable chart library </li>
+</ul>
+  <p>Copyright 2020 Michael Ding and Neilesh Shrotri. All rights reserved.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
+

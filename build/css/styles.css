@@ -1,0 +1,26 @@
+div {
+  background-color: #87CEEB;
+}
+.bordered {
+  border-style: double dashed double;
+  border-color: #2F4858;
+  border-width: thick;
+}
+header {
+  color: #E75480;
+  font-size: 40px;
+  position: relative;
+  left: 50px;
+}
+footer {
+  background-color: #990000;
+  color: #FFB6C1;
+  position: relative;
+  left: 10px;
+}
+h1 {
+  color: #2F4858;
+}
+#color {
+  background-color: #FFB6C1;
+}
